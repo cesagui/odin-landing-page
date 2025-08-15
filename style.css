@@ -9,14 +9,18 @@ body {
     margin: 0;
 }
 
+.hero{
+    background-color: #1F2937;
+    padding: 20px 248px;
+}
+
 .header {
     display: flex;
-    padding: 20px 248px;
     margin: 0;
-    background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
+    margin-bottom: 96px;
 }
 
 .title {
@@ -34,3 +38,45 @@ ul {
     color: #E5E7EB;
 }
 
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.sign-up .left, .sign-up .right{
+    flex : 1;
+}
+
+.sign-up .left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.sign-up .left p{
+    margin-top: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up .left button{
+    padding: 10px 34px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+.sign-up .right{
+    display: flex;
+
+    background-color: #6D747D;
+    align-items: center;
+    justify-content: center;
+    
+    height: 250px;
+    color: #E5E7EB;
+}
