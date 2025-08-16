@@ -80,3 +80,37 @@ ul {
     height: 250px;
     color: #E5E7EB;
 }
+
+.middle h1{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-top: 24px;
+    padding-bottom: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+    padding-bottom: 129px;
+}
+.card .card-image {
+    border-radius: 15px;
+    border-width: 4px;
+    border-color: #3882F6;;
+    border-style: solid;
+    height: 160px;
+    width: 160px;
+    margin-bottom: 5px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #5A6370;
+}
